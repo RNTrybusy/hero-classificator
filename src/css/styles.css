@@ -1,0 +1,52 @@
+.container {
+    width: 480px;
+    height: 360px;
+    background-image: url(../images/guild_background.png);
+    background-size: cover;
+    background-position: center;
+    margin: 32px auto 32px;
+    padding: 8px;
+    border-radius: 7px;
+}
+
+.container h3 {
+    border: 5px #2d2d2d solid;
+    border-radius: 7px;
+    color: #FFFFFF;
+    width: fit-content;
+    align-items: center;
+    margin: 32px auto 16px;
+    padding: 8px;
+    font-size: 24px;
+}
+
+.container #data {
+    border: 5px #2d2d2d solid;
+    border-radius: 7px;
+    display: flex;
+    flex-wrap: wrap;
+    width: fit-content;
+    margin: 8px auto auto;
+    padding: 5px;
+    gap: 5px;
+}
+
+.container img {
+    width: 128px;
+    background: #4b3928;
+    margin: 16px 175px 8px;
+    cursor: pointer;
+}
+
+.container img:hover {
+    transform: scale(1.15);
+}
+.container #level-result {
+    border: 5px #2d2d2d solid ;
+    border-radius: 7px;
+    background: #4b3928;
+    color: #FFFFFF;
+    width: fit-content;
+    margin: 0 auto 20px;
+    padding: 5px;
+}
